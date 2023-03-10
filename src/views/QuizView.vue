@@ -31,7 +31,7 @@
 </script>
 
 <template>
-    <div>
+    <div class="card">
         <QuestionHeader 
             :questionStatus="questionStatus" 
             :barPercentage="barPercentage"
@@ -50,3 +50,9 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.card  {
+    min-height: 100vh;
+}
+</style>
