@@ -13,7 +13,7 @@ watch(search, () => {
 </script>
 
 <template>
-  <div>
+  <div class="quizes">
     <header>
       <h1>Math Master</h1>
       <input v-model.trim="search" type="text" placeholder="Search...">
@@ -25,6 +25,9 @@ watch(search, () => {
 </template>
 
 <style scoped>
+.quizes {
+  min-height: 100vh;
+}
 header {
   margin-bottom: 10px;
   margin-top: 30px;
